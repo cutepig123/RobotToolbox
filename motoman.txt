@@ -1,0 +1,9 @@
+syms s1
+A1=dh(s1,0,0,pi/2)
+syms s2 a2;A2=dh(s2,0,a2,0)
+syms s3 a3;A3=dh(s3,0,a3,pi/2)
+syms s4 d4;A4=dh(s4,d4,0,-pi/2)
+syms s5 ;A5=dh(s5,0,0,pi/2)
+syms s6 ;A6=dh(s6,0,0,0)
+T=A1*A2*A3*A4*A5*A6;
+T2=simple(T)
